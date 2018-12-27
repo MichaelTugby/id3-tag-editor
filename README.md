@@ -45,5 +45,5 @@ To use the tag editor, simply click the "Add" button to add a song into the edit
 To edit the tag, select a file you added, and it will bring up all the current ID3 tags of the file. You can edit the tags here, and save them to the file by clicking "Save".
 
 To edit multiple tags at once, select two or more songs. There are several ways you can edit multiple tags:
-- Typing <keep> will keep the original tags for all songs selected. You can enter something like "<keep> - Original" to both keep the original tag and add " - Original" to the end of it.
-- Typing a regex inside of <> will replace the original tags with the result of the regex. For example, </.*(?=- Original)|.*/> will remove " - Original" from the original tag for every song. Note that if no match is found, it will default to the original tag.
+- Typing `<keep>` will keep the original tags for all songs selected. You can enter something like `<keep> - Original` to both keep the original tag and add ` - Original` to the end of it.
+- Typing a regex inside of `<>` will replace the original tags with the result of the regex. For example, `</.*(?=- Original)|.*/>` will remove ` - Original` from the original tag for every song. Note that if no match is found, it will default to the original tag.
