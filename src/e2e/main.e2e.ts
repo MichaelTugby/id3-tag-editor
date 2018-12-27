@@ -1,4 +1,3 @@
-import * as electronPath from "electron";
 import * as path from "path";
 import { Application } from "spectron";
 
@@ -8,7 +7,7 @@ describe("Application Launch", () => {
     beforeEach(async () => {
         app = new Application({
             args: [path.resolve(process.cwd(), "dist/main.bundle.js")],
-            path: electronPath as any,
+            path: require("electron") as any,
         });
         await app.start();
         await app.client.waitUntilWindowLoaded();
