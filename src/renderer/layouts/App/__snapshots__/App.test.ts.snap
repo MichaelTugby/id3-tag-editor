@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Layout snapshot has not changed 1`] = `
+<div data-app="true" class="application theme--light" id="App">
+  <div class="application--wrap">
+    <nav class="v-toolbar v-toolbar--fixed" style="margin-top: 0px; padding-right: 0px; padding-left: 0px; transform: translateY(0px);" id="AppToolbar">
+      <div class="v-toolbar__content" style="height: 64px;">
+        <div id="AppToolbarTitle" class="v-toolbar__title">ID3 Tag Editor</div>
+      </div>
+    </nav>
+    <main class="v-content" style="padding: 64px 0px 0px 0px;" id="AppContent">
+      <div class="v-content__wrap">
+        <div class="container pa-0 fluid fill-height" id="AppContainer">
+          <router-view-stub id="AppView"></router-view-stub>
+        </div>
+      </div>
+    </main>
+    <div class="v-snack v-snack--active v-snack--bottom" name="v-snack-transition" id="AppSnackbar">
+      <div class="v-snack__wrapper info">
+        <div class="v-snack__content">Test Message
+          <button type="button" class="v-btn v-btn--flat white--text" id="AppSnackbarCloseBtn">
+            <div class="v-btn__content">Close</div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

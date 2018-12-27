@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Route Component snapshot did not change 1`] = `
+<div class="TagReader" id="Home">
+  <div class="container grid-list-md fluid" id="HomeContainer">
+    <div class="layout row wrap" id="HomeLayout">
+      <div class="flex no-basis HomeFlexContainer">
+        <div class="FileList" id="HomeFileList">
+          <div class="elevation-1 FileListTable">
+            <div class="v-table__overflow">
+              <table class="v-datatable v-table v-datatable--select-all">
+                <thead>
+                  <tr class="FileListTableHeaderRow">
+                    <th class="FileListTableHeader FileListSelectAll">
+                      <div class="v-input FileListSelectAllCheckbox v-input--selection-controls v-input--checkbox v-input--hide-details" primary="primary">
+                        <div class="v-input__control">
+                          <div class="v-input__slot">
+                            <div class="v-input--selection-controls__input">
+                              <input aria-checked="false" role="checkbox" type="checkbox" primary="primary">
+                              <div class="v-input--selection-controls__ripple"></div>
+                              <i aria-hidden="true" class="v-icon material-icons">check_box_outline_blank</i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </th>
+                    <th class="text-xs-left FileListTableHeader FileListTableHeaderContent column sortable asc">File
+                      <i aria-hidden="true" class="v-icon material-icons" style="font-size: 16px;">arrow_upward</i>
+                    </th>
+                  </tr>
+                  <tr class="v-datatable__progress">
+                    <th colspan="2" class="column"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="2" class="text-xs-center">No data available</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="v-datatable v-table v-datatable--select-all">
+              <div class="v-datatable__actions">
+                <div class="v-datatable__actions__select">Rows per page:
+                  <div role="combobox" class="v-input v-text-field v-select v-input--hide-details v-input--is-label-active v-input--is-dirty">
+                    <div class="v-input__control">
+                      <div class="v-input__slot">
+                        <div class="v-menu v-menu--inline">
+                          <div class="v-menu__activator">
+                            <div class="v-select__slot">
+                              <div class="v-select__selections">
+                                <div class="v-select__selection v-select__selection--comma">10</div>
+                                <input aria-label="Rows per page:" readonly="readonly" type="text" autocomplete="on" aria-readonly="false">
+                              </div>
+                              <div class="v-input__append-inner">
+                                <div class="v-input__icon v-input__icon--append">
+                                  <i aria-hidden="true" class="v-icon material-icons">arrow_drop_down</i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="v-datatable__actions__range-controls">
+                  <div class="v-datatable__actions__pagination">–</div>
+                  <button type="button" class="v-btn v-btn--disabled v-btn--flat v-btn--icon" aria-label="Previous page" disabled="disabled">
+                    <div class="v-btn__content">
+                      <i aria-hidden="true" class="v-icon material-icons">chevron_left</i>
+                    </div>
+                  </button>
+                  <button type="button" class="v-btn v-btn--disabled v-btn--flat v-btn--icon" aria-label="Next page" disabled="disabled">
+                    <div class="v-btn__content">
+                      <i aria-hidden="true" class="v-icon material-icons">chevron_right</i>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="FileListAddBtn v-btn primary">
+            <div class="v-btn__content">Add Files</div>
+          </button>
+          <!---->
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>
+`;

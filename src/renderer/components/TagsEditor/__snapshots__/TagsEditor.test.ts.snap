@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tags Editor Component snapshot has not changed 1`] = `
+<form novalidate="novalidate" class="v-form TagsEditor">
+  <div class="v-input TagsEditorTextField v-text-field v-input--is-label-active v-input--is-dirty">
+    <div class="v-input__control">
+      <div class="v-input__slot">
+        <div class="v-text-field__slot">
+          <label for="name" class="v-label v-label--active" style="left: 0px; position: absolute;">Track Name</label>
+          <input id="name" type="text">
+        </div>
+      </div>
+      <div class="v-text-field__details">
+        <div class="v-messages">
+          <div class="v-messages__wrapper"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="v-input TagsEditorTextField v-text-field v-input--is-label-active v-input--is-dirty">
+    <div class="v-input__control">
+      <div class="v-input__slot">
+        <div class="v-text-field__slot">
+          <label for="artist" class="v-label v-label--active" style="left: 0px; position: absolute;">Artist</label>
+          <input id="artist" type="text">
+        </div>
+      </div>
+      <div class="v-text-field__details">
+        <div class="v-messages">
+          <div class="v-messages__wrapper"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="v-input TagsEditorTextField v-text-field v-input--is-label-active v-input--is-dirty">
+    <div class="v-input__control">
+      <div class="v-input__slot">
+        <div class="v-text-field__slot">
+          <label for="albumArtist" class="v-label v-label--active" style="left: 0px; position: absolute;">Album Artist</label>
+          <input id="albumArtist" type="text">
+        </div>
+      </div>
+      <div class="v-text-field__details">
+        <div class="v-messages">
+          <div class="v-messages__wrapper"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="TagsEditorSubmitBtn v-btn primary">
+    <div class="v-btn__content">Save Changes</div>
+  </button>
+</form>
+`;

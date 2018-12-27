@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image Field Component placeholder snapshot has not changed 1`] = `
+<div class="ImageField">
+  <div class="v-input ImageFieldInput mt-0">
+    <div class="v-input__control">
+      <div class="v-input__slot">
+        <div class="ImageFieldSlot">
+          <div class="v-label ImageFieldLabel">Image</div>
+          <div class="ImageFieldPlaceholder ml-2 mt-2">Drag Image Here</div>
+        </div>
+      </div>
+      <div class="v-messages">
+        <div class="v-messages__wrapper"></div>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="ImageFieldUpdateBtn mt-0 mb-3 v-btn primary">
+    <div class="v-btn__content">Update Image</div>
+  </button>
+  <button type="button" class="ImageFieldRemoveBtn mt-0 mb-3 v-btn error">
+    <div class="v-btn__content">Remove Image</div>
+  </button>
+</div>
+`;
+
+exports[`Image Field Component snapshot has not changed 1`] = `
+<div class="ImageField">
+  <div class="v-input ImageFieldInput mt-0">
+    <div class="v-input__control">
+      <div class="v-input__slot">
+        <div class="ImageFieldSlot">
+          <div class="v-label ImageFieldLabel">Image</div>
+          <img src="data:image/png;base64,AAAAAAAAAAA=" width="200" class="ml-2 mt-2 ImageFieldContainer">
+        </div>
+      </div>
+      <div class="v-messages">
+        <div class="v-messages__wrapper"></div>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="ImageFieldUpdateBtn mt-0 mb-3 v-btn primary">
+    <div class="v-btn__content">Update Image</div>
+  </button>
+  <button type="button" class="ImageFieldRemoveBtn mt-0 mb-3 v-btn error">
+    <div class="v-btn__content">Remove Image</div>
+  </button>
+</div>
+`;
