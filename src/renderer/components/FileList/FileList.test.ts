@@ -370,24 +370,4 @@ describe("File List Component", () => {
         expect(wrapper.emitted()["remove-click"]).toEqual([[]]);
     });
 
-    it("clicking on table row adds row to selected array", async () => {
-        const wrapper = mount(FileList, {
-            propsData: {
-                headers,
-                itemKey: "id",
-                items,
-                selected: [],
-            },
-            scopedSlots: {
-                default: "<template slot-scope='props'>{{ props.item.name }}</template>",
-            },
-            sync: false,
-        });
-        await wrapper.vm.$nextTick();
-        wrapper.find(".FileListTableRow").trigger("click");
-        const selected: typeof items = wrapper.emitted()["selected-updated"][0][0];
-        expect(selected.length).toEqual(1);
-        expect(selected[0].name).toEqual("Test File 1");
-    });
-
 });

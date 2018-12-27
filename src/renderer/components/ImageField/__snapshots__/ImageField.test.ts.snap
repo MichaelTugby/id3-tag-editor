@@ -16,7 +16,7 @@ exports[`Image Field Component placeholder snapshot has not changed 1`] = `
     </div>
   </div>
   <button type="button" class="ImageFieldUpdateBtn mt-0 mb-3 v-btn primary">
-    <div class="v-btn__content">Update Image</div>
+    <div class="v-btn__content">Select Image</div>
   </button>
   <button type="button" class="ImageFieldRemoveBtn mt-0 mb-3 v-btn error">
     <div class="v-btn__content">Remove Image</div>
@@ -40,7 +40,7 @@ exports[`Image Field Component snapshot has not changed 1`] = `
     </div>
   </div>
   <button type="button" class="ImageFieldUpdateBtn mt-0 mb-3 v-btn primary">
-    <div class="v-btn__content">Update Image</div>
+    <div class="v-btn__content">Select Image</div>
   </button>
   <button type="button" class="ImageFieldRemoveBtn mt-0 mb-3 v-btn error">
     <div class="v-btn__content">Remove Image</div>

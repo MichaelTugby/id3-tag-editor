@@ -6,7 +6,7 @@ exports[`File List Component snapshot has not changed 1`] = `
     <div class="v-table__overflow">
       <table class="v-datatable v-table v-datatable--select-all">
         <thead>
-          <tr class="FileListTableHeaderRow">
+          <tr class="FileListTableRow FileListTableHeaderRow">
             <th class="FileListTableHeader FileListSelectAll">
               <div class="v-input FileListSelectAllCheckbox v-input--selection-controls v-input--checkbox v-input--hide-details" primary="primary">
                 <div class="v-input__control">
@@ -31,7 +31,7 @@ exports[`File List Component snapshot has not changed 1`] = `
         <tbody>
           <tr class="FileListTableRow">
             <td class="FileListTableCell FileListTableSelector">
-              <div class="v-input v-input--selection-controls v-input--checkbox v-input--hide-details" primary="primary">
+              <div class="v-input FileListSelectCheckbox v-input--selection-controls v-input--checkbox v-input--hide-details" primary="primary">
                 <div class="v-input__control">
                   <div class="v-input__slot">
                     <div class="v-input--selection-controls__input">
@@ -47,7 +47,7 @@ exports[`File List Component snapshot has not changed 1`] = `
           </tr>
           <tr class="FileListTableRow">
             <td class="FileListTableCell FileListTableSelector">
-              <div class="v-input v-input--selection-controls v-input--checkbox v-input--hide-details" primary="primary">
+              <div class="v-input FileListSelectCheckbox v-input--selection-controls v-input--checkbox v-input--hide-details" primary="primary">
                 <div class="v-input__control">
                   <div class="v-input__slot">
                     <div class="v-input--selection-controls__input">
@@ -118,7 +118,7 @@ exports[`File List Component snapshot with no items has not changed 1`] = `
     <div class="v-table__overflow">
       <table class="v-datatable v-table v-datatable--select-all">
         <thead>
-          <tr class="FileListTableHeaderRow">
+          <tr class="FileListTableRow FileListTableHeaderRow">
             <th class="FileListTableHeader FileListSelectAll">
               <div class="v-input FileListSelectAllCheckbox v-input--selection-controls v-input--checkbox v-input--hide-details" primary="primary">
                 <div class="v-input__control">
