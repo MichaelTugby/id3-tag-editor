@@ -4,7 +4,7 @@ This is a small ID3 tag editor using Electron and Vue.
 
 ## Install the Dependencies
 
-The app requires you to have [Node](https://nodejs.org/en/download/) installed.
+The app requires you to have [Node](https://nodejs.org/en/download/) and GCC installed. To install GCC on Mac, install XCode.
 
 After downloading the repository, open up a terminal and install the dependencies:
 ```sh
